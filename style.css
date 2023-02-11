@@ -1,0 +1,134 @@
+body {
+    /* basic necessity while creating a website */
+    background: url(https://get.pxhere.com/photo/black-and-white-sport-wheel-train-dark-training-darkness-monochrome-fitness-weights-dumbbell-strength-training-weight-lifting-power-sports-muscles-muscle-training-still-life-photography-product-design-monochrome-photography-weight-plates-computer-wallpaper-exercise-equipment-1376234.jpg);
+    height: 100%;
+    background-position: center;
+    /* background-size: 100px 100px; */
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: aquamarine;
+    font-family: 'Roboto Slab', serif;
+    }
+
+.logo {
+    position: absolute;
+    /* border:2px solid red; */
+    display: inline-block;
+    margin: 2px;
+}
+
+.logo img {
+    width: 68%;
+    padding: 17px;
+    margin: 5px -9px -9px 32px;
+    height: 55px;
+    /* border: 2px solid white; */
+}
+
+.logo div {
+    margin-left: 50px;
+    text-align: center;
+    font-weight: bolder;
+    line-height: 0px;
+    font-size: 13px;
+    font-weight: 25px;
+}
+
+.navigation {
+    /* border: 2px solid red; */
+    display: inline-block;
+    width: 33%;
+    margin: 8px 535px;
+}
+
+.contactus {
+    /* border: 2px solid red; */
+    display: inline-block;
+    position: absolute;
+    right: 21px;
+    top: 18px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.navbar li {
+    display: inline-block;
+    list-style: none;
+    margin: 6px;
+}
+
+.navbar li a {
+    padding: 0px;
+    font-size: 20px;
+    font-weight: bolder;
+
+}
+
+.navbar li a:hover {
+    color: rgb(236, 233, 239);
+    background-color: rgb(9, 1, 19);
+    text-decoration: underline;
+}
+
+.btn {
+    width: 85%;
+    font-weight: bold;
+    padding: 0px;
+    border: none;
+    cursor: pointer;
+    font-size: 14px;
+    border-radius: 4px;
+    background-color: rgb(210, 195, 195);
+    font-family: inherit;
+}
+
+.btn:hover {
+    color: aqua;
+    border: 5px;
+    background-color: rgb(9, 1, 19);
+}
+
+.material {
+    width: 386px;
+    margin: 81px;
+    border: 2px solid white;
+    padding: 89px;
+    border-radius: 10px;
+    font-family: inherit;
+}
+
+.form-section input {
+    width: 79%;
+    font-size: 16px;
+    padding: 4px;
+    margin: 3px;
+    border-radius: 5px;
+    display: block;
+    text-align: center;
+    font-weight: bold;
+}
+
+.btn2 {
+    width: 24%;
+    font-weight: bold;
+    padding: 0px;
+    border: none;
+    cursor: pointer;
+    font-size: 14px;
+    border: 4px;
+    border-color: brown;
+    /* border-radius: 4px; */
+    background-color: rgb(210, 195, 195);
+    font-family: inherit;
+    align-items: 20px auto;
+}
+
+
+.btn2:hover {
+    color: aqua;
+    border: 5px;
+    background-color: rgb(9, 1, 19);
+}
